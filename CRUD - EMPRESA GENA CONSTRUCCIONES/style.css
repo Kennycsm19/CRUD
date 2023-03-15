@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: inherit;
+}
+.menu li{
+    display: inline;
+}
+
+.tabla{
+border-collapse: collapse;
+}
+table tr th{
+    border: 1px solid green;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: green;
+}
+td {
+    border: 1px solid green;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: block;
+}
+.caja input{
+    width: 8em;
+    height: 2em;
+    text-align: center;
+}
+.submit{
+    width: 8em;
+    height: 2em;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+}

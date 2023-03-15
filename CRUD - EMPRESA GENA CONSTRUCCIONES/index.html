@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TITULO DE LA PAGINA</title>
+</head>
+<body>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Apellido</th>
+                      <th>País</th>
+                      <th>Opciones</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+              </div>
+
+              <div class="caja">
+                <label for="nom">Nombre</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+                <label for="ape">Apellido</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
+                <label for="pais">País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+              </div>
+
+              <input class="submit" type="submit" value="Escribir">
+              </form>
+
+   <footer class="footer" id="footer">
+     <a href="#">Pedro Enriquez Paginas Web</a>
+   </footer>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
